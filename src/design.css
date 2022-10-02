@@ -6,10 +6,11 @@ body {
     background: #38262f;
   }
   div.container-sm {
-    height: 100vh;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 500px;
     /* filter:drop-shadow(3px); */
   }
   
