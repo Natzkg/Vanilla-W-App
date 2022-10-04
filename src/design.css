@@ -79,7 +79,7 @@ body {
     }
     
     .weather-temperature strong {
-      color: rgb(12, 10, 10);
+      color: rgb(253, 253, 253);
       font-size: 64px;
       line-height: 1;
       font-weight: 500;
@@ -90,7 +90,7 @@ body {
       font-size: 30px;
       top: -30px;
       font-weight: 500;
-      color: #000;
+      color: rgb(255, 255, 255);
     }
     
     .weather-temperature .active {
