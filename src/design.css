@@ -47,15 +47,15 @@ body {
     }
     .weather-app1 {
       position: absolute;
-      left: 60px;
+      left: 16px;
       top: 30px;
       border: 0.1rem solid white;
       padding: 1px 1px;
-      border-radius: 8px;
+      border-radius: 10px;
       margin-top: -18px;
     }
     .weather-app1 img{
-      padding: 2px 3px;
+      padding: 2px 2px;
       border-radius: 10px;
     }
     
