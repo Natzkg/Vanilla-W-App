@@ -41,7 +41,7 @@ function formatDate(timestamp) {
         forecastHTML =
           forecastHTML +
           `
-        <div class="col-2 mb-4 mt-4">
+        <div class="col mb-4 mt-4">
           <div class="weather-forecast-date">${formatDay(forecastDay.dt)}</div>
           <img
             src="http://openweathermap.org/img/wn/${
