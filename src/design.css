@@ -42,7 +42,7 @@ body {
       box-shadow: 0 5px 15px rgba(0,0,0,0.5);
       border-radius: 10px;
       margin: 30px auto;
-      margin-top: 170px;
+      margin-top: 100px;
       transition:0.5s;
     }
     .weather-app1 {
@@ -52,7 +52,7 @@ body {
       border: 0.1rem solid white;
       padding: 1px 1px;
       border-radius: 8px;
-      margin-top: 20px;
+      margin-top: -18px;
     }
     .weather-app1 img{
       padding: 2px 3px;
@@ -133,4 +133,20 @@ body {
     border-radius: 8px;
     
   }
-  
+  @media screen and (min-width:phone){
+    .weather-app-wrapper{
+      max-width: 320px;
+    }
+    .weather-forecast{
+      max-width: 320px;
+    }
+    .col-2{
+      max-width: 320px;
+    }
+  }
+  @media screen and (orientation:portrait){
+    .weather-app-wrapper{
+      max-width: 320px;
+  }
+
+}
