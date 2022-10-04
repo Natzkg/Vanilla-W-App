@@ -42,17 +42,17 @@ body {
       box-shadow: 0 5px 15px rgba(0,0,0,0.5);
       border-radius: 10px;
       margin: 30px auto;
-      margin-top: 200px;
+      margin-top: 170px;
       transition:0.5s;
     }
     .weather-app1 {
       position: absolute;
       left: 60px;
-      top: 35px;
+      top: 30px;
       border: 0.1rem solid white;
       padding: 1px 1px;
       border-radius: 8px;
-      margin-top: 30px;
+      margin-top: 20px;
     }
     .weather-app1 img{
       padding: 2px 3px;
@@ -89,6 +89,8 @@ body {
       position: relative;
       font-size: 30px;
       top: -30px;
+      font-weight: 500;
+      color: #000;
     }
     
     .weather-temperature .active {
